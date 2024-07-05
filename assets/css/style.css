@@ -1,0 +1,28 @@
+html,body{
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+.carta{
+    position: relative;
+    width: 100px;
+    left: 100px;
+    margin-left: -75px;
+}
+#computadora-cartas, #jugador-cartas{
+height: 200px;
+}
+body {
+    overflow-x: hidden; /* Evita el desbordamiento lateral */
+}
+.container {
+    max-width: 100%; /* Asegura que los contenedores no excedan el ancho del viewport */
+}

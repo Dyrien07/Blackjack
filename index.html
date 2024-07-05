@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  
+    <title>BlackJack</title>
+</head>
+<body>
+    <header class="titulo text-center">BlackJack</header>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col text-center">
+                <button id="btnNuevo" class="btn btn-primary">Nuevo Juego</button>
+                <button id="btnPedir" class="btn btn-info" disabled>Pedir Carta</button>
+                <button id="btnDetner" class="btn btn-danger" disabled>Detener</button>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col">
+                <h1>Jugador 1 - <small>0</small></h1>
+                <div id="jugador-cartas" class="divCartas">
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col">
+                <h1>Computadora - <small>0</small></h1>
+                <div id="computadora-cartas" class="divCartas">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2poTjtq6A8fMnK5q/fdgiJT2LEzrtEW2/dg6oEexovRt+0GsDO9Z" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-qBm56U+Yf5Tw1nZLIMhGfbjCdsbV7VFpD7BIyDLXJ/CQF6DImhN3Uu9Kfv8MH3zG" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7Wy0vYYl7T5t1ANLkm4lCgaTirvtA0BneH0jZ5w56Lrjx3" crossorigin="anonymous"></script>
+    <script src="assets/js/underscore.js"></script>
+    <script src="assets/js/juego-min.js"></script>
+</body>
+</html>
